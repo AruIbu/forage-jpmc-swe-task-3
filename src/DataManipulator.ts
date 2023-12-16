@@ -4,6 +4,9 @@ export interface Row {
   stock: string,
   top_ask_price: number,
   timestamp: Date,
+  upper_bound:number,
+  lower_bound:number,
+  trigger_alert:number|undefined
 }
 
 
